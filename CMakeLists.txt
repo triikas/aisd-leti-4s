@@ -3,4 +3,6 @@ project(aisd_leti_4s)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(aisd_leti_4s main.cpp)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+
+add_executable(lab2 lab2/figure.cpp lab2/figure.h)
