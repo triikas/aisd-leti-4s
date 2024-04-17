@@ -1,0 +1,3 @@
+"A:\Progi\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\aisd_leti_4s.dir/objects.a
+"A:\Progi\CLion 2022.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\aisd_leti_4s.dir/objects.a @CMakeFiles\aisd_leti_4s.dir\objects1.rsp
+"A:\Progi\CLion 2022.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\aisd_leti_4s.dir/objects.a -Wl,--no-whole-archive -o aisd_leti_4s.exe -Wl,--out-implib,libaisd_leti_4s.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\aisd_leti_4s.dir\linkLibs.rsp
