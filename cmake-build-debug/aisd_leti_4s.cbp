@@ -61,6 +61,50 @@
 					<DistClean command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lab4">
+				<Option output="A:/leti-projects/aisd-leti-4s/cmake-build-debug/lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="A:/leti-projects/aisd-leti-4s/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4"/>
+					<CompileFile command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab4/fast">
+				<Option output="A:/leti-projects/aisd-leti-4s/cmake-build-debug/lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="A:/leti-projects/aisd-leti-4s/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="A:/Progi/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab4/fast"/>
+					<CompileFile command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="A:/Progi/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;A:/leti-projects/aisd-leti-4s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="A:/leti-projects/aisd-leti-4s/cmake-build-debug"/>
 				<Option type="4"/>
@@ -87,6 +131,9 @@
 		</Unit>
 		<Unit filename="A:/leti-projects/aisd-leti-4s/lab2/figure.h">
 			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="A:/leti-projects/aisd-leti-4s/lab4/lab3.cc">
+			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="A:/leti-projects/aisd-leti-4s/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

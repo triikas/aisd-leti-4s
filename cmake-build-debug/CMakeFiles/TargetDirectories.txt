@@ -1,3 +1,4 @@
-A:/LETI/aisd-leti-4s/cmake-build-debug/CMakeFiles/aisd_leti_4s.dir
-A:/LETI/aisd-leti-4s/cmake-build-debug/CMakeFiles/edit_cache.dir
-A:/LETI/aisd-leti-4s/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+A:/leti-projects/aisd-leti-4s/cmake-build-debug/CMakeFiles/lab2.dir
+A:/leti-projects/aisd-leti-4s/cmake-build-debug/CMakeFiles/lab4.dir
+A:/leti-projects/aisd-leti-4s/cmake-build-debug/CMakeFiles/edit_cache.dir
+A:/leti-projects/aisd-leti-4s/cmake-build-debug/CMakeFiles/rebuild_cache.dir

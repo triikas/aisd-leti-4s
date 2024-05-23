@@ -128,6 +128,19 @@ lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
+#=============================================================================
+# Target rules for targets named lab4
+
+# Build rule for target.
+lab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
+.PHONY : lab4
+
+# fast build rule for target.
+lab4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/build
+.PHONY : lab4/fast
+
 lab2/figure.obj: lab2/figure.cpp.obj
 .PHONY : lab2/figure.obj
 
@@ -152,6 +165,30 @@ lab2/figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/lab2/figure.cpp.s
 .PHONY : lab2/figure.cpp.s
 
+lab4/lab3.obj: lab4/lab3.cc.obj
+.PHONY : lab4/lab3.obj
+
+# target to build an object file
+lab4/lab3.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4/lab3.cc.obj
+.PHONY : lab4/lab3.cc.obj
+
+lab4/lab3.i: lab4/lab3.cc.i
+.PHONY : lab4/lab3.i
+
+# target to preprocess a source file
+lab4/lab3.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4/lab3.cc.i
+.PHONY : lab4/lab3.cc.i
+
+lab4/lab3.s: lab4/lab3.cc.s
+.PHONY : lab4/lab3.s
+
+# target to generate assembly for a file
+lab4/lab3.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/lab4/lab3.cc.s
+.PHONY : lab4/lab3.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab2
+	@echo ... lab4
 	@echo ... lab2/figure.obj
 	@echo ... lab2/figure.i
 	@echo ... lab2/figure.s
+	@echo ... lab4/lab3.obj
+	@echo ... lab4/lab3.i
+	@echo ... lab4/lab3.s
 .PHONY : help
 
 
